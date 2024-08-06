@@ -48,7 +48,7 @@ Write a method testProcessGenes. This method will call your processGenes method 
 
 We have some real DNA for you to test your code on. Download the file brca1line.fa from the DukeLearnToProgram Project Resources page. Make sure you save it in your BlueJ project so that your code can access it. You can use a FileResource to open the file and the FileResource method asString to convert the contents of the file to a single string so that you can use it like the other DNA strings you have been using. Here is an example:
 
-```{java}
+```java
 FileResource fr = new FileResource("brca1line.fa");
 String dna = fr.asString();
 ```
